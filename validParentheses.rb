@@ -63,6 +63,9 @@ def valid_parentheses(string)
     open == 0
 end
 
+def valid_parentheses(string)
+    ~ Regexp.new(string) == nil rescue false
+end
 
 
 
