@@ -18,6 +18,7 @@
  
  word = "abba"
  words = ["baab", "abb", "aabb", "baa"]
+#my solution
 
 def anagrams(word, words)   
     anagrams = []
@@ -37,3 +38,8 @@ def anagrams(word, words)
     anagrams
 end
 
+# best practice by codewars
+
+def anagrams(word, words)
+    words.select { |w| w.chars.sort == word.chars.sort }
+end

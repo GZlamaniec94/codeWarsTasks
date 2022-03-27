@@ -51,7 +51,7 @@ def valid_parentheses(string)
     correctness
 end
 
-# best practise by codewars
+# best practice by codewars
 
 def valid_parentheses(string)
     open = 0

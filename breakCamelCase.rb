@@ -14,7 +14,7 @@ def solution (string)
    string.gsub(/(?<=[a-z])(?=[A-Z])/, ' ')
 end    
 
-# best practice
+# best practice by codewars
 
 def bestPracticeSolution(string)
     string.gsub /([A-Z])/, ' \1'

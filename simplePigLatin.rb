@@ -21,7 +21,7 @@ def pig_it(text)
     newTxt
 end
 
-# best practise
+# best practice by codewars
 
 def pig_it text
     text.gsub(/(\w)(\w+)*/, '\2\1ay')
