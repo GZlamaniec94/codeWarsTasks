@@ -23,10 +23,7 @@ def max_sequence(arr)
         while index < arr.length
             firstIndex = 0
             lastIndex = index                    
-            while lastIndex < arr.length
-                p firstIndex
-                p "+"
-                p lastIndex
+            while lastIndex < arr.length                
                 if arr[firstIndex..lastIndex].sum > biggestSum then biggestSum = arr[firstIndex..lastIndex].sum end
                 firstIndex += 1
                 lastIndex += 1        
