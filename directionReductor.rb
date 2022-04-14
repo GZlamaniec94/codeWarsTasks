@@ -18,7 +18,7 @@
 # [West]
 
 a = ["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST"]
-# my
+# my solution
 def dirReduc(a)
     indexElement1 = 0
     indexElement2 = 1
